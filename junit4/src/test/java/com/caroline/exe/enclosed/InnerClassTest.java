@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
  * Time: 下午3:51
  */
 @RunWith(Enclosed.class)
-public class InnerClassTest {
+public class InnerClassTest {//TODO:像这个类完全不知道什么时候会用到它。
 
     public static class MyInnerClass {// TODO:为什么这个类是static的
         @Test
