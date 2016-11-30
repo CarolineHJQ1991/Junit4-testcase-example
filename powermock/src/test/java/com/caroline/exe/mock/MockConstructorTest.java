@@ -1,4 +1,4 @@
-package com.caorline.exe.mock;
+package com.caroline.exe.mock;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -6,8 +6,6 @@ import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
 
 import java.io.File;
-
-import static org.junit.Assert.*;
 
 /**
  * User: Caroline.Han

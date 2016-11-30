@@ -1,5 +1,6 @@
-package com.caorline.exe.mock;
+package com.caroline.exe.mock;
 
+import com.caroline.exe.mock.Mock;
 import org.junit.Assert;
 import org.junit.Test;
 import org.powermock.api.mockito.PowerMockito;

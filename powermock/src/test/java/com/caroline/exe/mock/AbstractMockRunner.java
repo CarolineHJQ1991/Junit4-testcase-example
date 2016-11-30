@@ -1,4 +1,4 @@
-package com.caorline.exe.mock;
+package com.caroline.exe.mock;
 
 import org.junit.runner.RunWith;
 import org.powermock.modules.junit4.PowerMockRunner;
