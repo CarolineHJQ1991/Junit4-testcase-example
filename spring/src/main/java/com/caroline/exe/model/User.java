@@ -16,17 +16,17 @@ import javax.persistence.Table;
 public class User {
 
     @Id
-    private int id;
+    private long id;
     private String name;
     private String dept;
     private String website;
     private String phone;
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
