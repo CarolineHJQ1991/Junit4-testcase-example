@@ -5,8 +5,10 @@ import com.caroline.exe.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * User: Caroline.Han
@@ -24,6 +26,12 @@ public class MainController {
         User user = userManagerImpl.getUserById(1);
         model.addAttribute(user);//TODO:model.addAttribute
         return "user";
+    }
+
+    @RequestMapping(value = "/main/{id}", method = RequestMethod.GET)
+    @ResponseBody
+    public User getUser(@PathVariable("id") int id) {
+        return userManagerImpl.getUserById(id);
     }
 
 }
