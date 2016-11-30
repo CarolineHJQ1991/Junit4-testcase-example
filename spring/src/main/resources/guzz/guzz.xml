@@ -17,5 +17,5 @@
 		</server>	
 	</config-server>
 
-	<business-scan dbgroup="default" resources="classpath*:com/jd/bt/model/*.class" />
+	<business-scan dbgroup="default" resources="classpath*:com/caroline/exe/model/*.class" />
 </guzz-configs>
